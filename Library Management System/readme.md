@@ -1,4 +1,4 @@
-//Scenario: Library Management System
+Library Management System
 You are tasked with managing a database for a library. The database should store information about books, authors, and borrowers. Additionally, it should track which books have been borrowed by which borrowers.
 
 Structures
