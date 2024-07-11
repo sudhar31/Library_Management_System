@@ -61,7 +61,7 @@ CREATE TABLE borrowed_books (
 
 
 Questions:
-Creating Tables and Adding Data
+Creating Tables and Adding Data:
 1.	Create Tables: Write SQL statements to create the authors, books, borrowers, and borrowed_books tables with the given structures.
 2.	Insert Data:
 	Insert at least 3 authors into the authors table.
@@ -69,19 +69,19 @@ Creating Tables and Adding Data
 	Insert at least 3 borrowers into the borrowers table.
 	Insert at least 2 borrowed book records into the borrowed_books table, ensuring each record has a borrower and a book.
 
-CRUD Operations
+CRUD Operations:
 3.	Retrieve All Books: Write a query to retrieve all books, including the title, author name, and published date.
 4.	Update Author's Birthdate: Write a query to update the birthdate of an author.
 5.	Delete Borrower: Write a query to delete a borrower from the borrowers table.
 
-Keys and Joins
+Keys and Joins:
 6.	Retrieve Borrowed Books: Write a query to retrieve all borrowed books, including the book title, borrower's name, and borrow date.
 7.	Inner Join: Write a query to retrieve all books along with their authors' names using an INNER JOIN.
 8.	Left Join: Write a query to retrieve all authors and their books, including authors who don't have any books listed, using a LEFT JOIN.
 9.	Self Join: Assume you want to find authors who were born on the same date. Write a query using a self join to find such authors.
 10.	Books Borrowed by Each Borrower: Write a query to retrieve the names of borrowers and the titles of books they have borrowed.
 
-Challenge Questions
+Challenge Questions:
 11.	Most Borrowed Books: Write a query to find the most borrowed books, including the book title and the number of times it has been borrowed.
 12.	Overdue Books: Write a query to find all books that are overdue. Assume a book is overdue if the return_date is NULL and borrow_date is more than 30 days ago.
 13.	Total Borrowed Books by Author: Write a query to find the total number of books borrowed for each author.
